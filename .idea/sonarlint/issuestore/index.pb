@@ -1,0 +1,19 @@
+
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+@
+app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
+†
+Vapp/src/main/java/sarabjit/blog/deeplinkingsample/activity/DeepLinkHandlingActivity.kt,0/6/06ea61669e080f152760aac303f229ac1bb482e0
+
+Oapp/src/main/java/sarabjit/blog/deeplinkingsample/activity/DashboardActivity.kt,0/5/05d6d0aed1ed2224c0938690859a62291bd0eba5
+z
+Japp/src/main/java/sarabjit/blog/deeplinkingsample/activity/MainActivity.kt,b/2/b2d87c34b68f78d17305a3e2f290063fede4f86c
+|
+Lapp/src/main/java/sarabjit/blog/deeplinkingsample/activity/SplashActivity.kt,4/d/4d7ebccef3429cafc2f14e3ca6a8d62333319d74
+‡
+Wapp/src/main/java/sarabjit/blog/deeplinkingsample/application/DeepLinkingApplication.kt,e/1/e1a546d3e1d57ba92ea0e6831a9f3cbdc552399f
+t
+Dapp/src/main/java/sarabjit/blog/deeplinkingsample/enums/DeepLinks.kt,b/8/b80361bb309cf782c8c4e4f1636a90220b9fd5ba
+|
+Lapp/src/main/java/sarabjit/blog/deeplinkingsample/manager/DeepLinkManager.kt,7/6/7660741069749a3d74e8cd974296b22a920c0f53

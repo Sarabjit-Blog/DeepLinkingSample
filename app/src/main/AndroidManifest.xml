@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sarabjit.blog.deeplinkingsample">
+
+    <application
+        android:name=".application.DeepLinkingApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.DeepLinkHandlingActivity"
+            android:launchMode="singleTask">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="@string/deep_link_host_dashboard"
+                    android:scheme="@string/deep_link_scheme" />
+
+                <data
+                    android:host="@string/deep_link_host_article"
+                    android:scheme="@string/deep_link_scheme" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity" />
+
+        <activity android:name=".activity.DashboardActivity" />
+    </application>
+
+</manifest>

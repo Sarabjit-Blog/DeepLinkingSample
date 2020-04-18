@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DeepLinkingSample</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome to Dashboard Activity from Deep Link</string>
+    <string name="main_activity">Main Activity</string>
+    <string name="splash_activity">Splash Activity</string>
+    <!-- Deeplinks -->
+    <string name="deep_link_host_dashboard">dashboard</string>
+    <string name="deep_link_host_article">article</string>
+    <string name="deep_link_scheme">sarabdeeplinksample</string>
+</resources>
